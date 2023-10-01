@@ -1,0 +1,82 @@
+
+.left{
+        position: absolute;
+        left: 34px;
+       
+        display: inline-block;
+        top: 20px;
+        color: #f7b9c2;
+        font-size: 20px;
+}
+.mid{
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+   
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+  
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: #f7b9c2;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+}
+.navbar li a:hover, .navbar li a:active{
+   text-decoration: underline;
+   color: aqua;
+}
+.left img{
+    width:70px;
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    margin:0px 9px;
+    color: #f7b9c2;
+    padding: 4px, 14px;
+    background-color: black;
+    border-radius: 7px;
+    border: 2px, solid black;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #caf5f3;;
+}
+.container{
+   
+
+    margin: 95px 69px;
+     padding: 64px;
+    width: 33%;
+     border-radius: 22px;
+}
+
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 6px;
+    border: 2px solid black;
+    margin:  3px auto;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 320px;
+    margin: auto;
+}
